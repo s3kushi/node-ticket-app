@@ -2,9 +2,9 @@ import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
 import jwt from 'jsonwebtoken';
 
-import { BadRequestError } from '../errors/bad-request-error';
+import { BadRequestError } from '@msticketsapp/common';
 import { User } from '../models/user';
-import { validateRequest } from '../middlewares/validate-requets';
+import { validateRequest } from '@msticketsapp/common';
 
 const router = express.Router();
 

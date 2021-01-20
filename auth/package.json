@@ -30,6 +30,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
+    "@msticketsapp/common": "^1.0.9",
     "@types/cookie-session": "^2.0.42",
     "@types/jsonwebtoken": "^8.5.0",
     "cookie-session": "^1.4.0",
