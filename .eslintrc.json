@@ -4,7 +4,8 @@
   "rules": {
     "prettier/prettier": ["error"],
     "@typescript-eslint/no-non-null-assertion": "off",
-    "@typescript-eslint/no-namespace": "off"
+    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/ban-ts-comment": "off"
   },
   "parserOptions": {
     "ecmaVersion": 2020,
